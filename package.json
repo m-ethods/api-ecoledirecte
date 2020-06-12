@@ -1,0 +1,34 @@
+{
+    "name": "ecoledirecte-api-france",
+    "version": "2.0.1",
+    "description": "A little API from ecoledirecte",
+    "main": "build/api.js",
+    "scripts": {
+        "start": "npx tsc -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/obvious-ly-sh/ecoledirecte-api.git"
+    },
+    "keywords": [
+        "ecole",
+        "directe",
+        "api",
+        "direct",
+        "ecoledirect",
+        "ecoledirecte"
+    ],
+    "author": "Obvious <obvious.ly.dev@gmail.com> (https://obvious-ly-sh.github.io)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/obvious-ly-sh/ecoledirecte-api/issues"
+    },
+    "homepage": "https://github.com/obvious-ly-sh/ecoledirecte-api#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.4",
+        "typescript": "^3.9.5"
+    },
+    "dependencies": {
+        "axios": "^0.19.2"
+    }
+}
