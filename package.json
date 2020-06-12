@@ -1,6 +1,6 @@
 {
-    "name": "ecoledirecte-api-france",
-    "version": "2.0.1",
+    "name": "api-ecoledirecte-france",
+    "version": "0.0.1",
     "description": "A little API from ecoledirecte",
     "main": "build/api.js",
     "scripts": {
