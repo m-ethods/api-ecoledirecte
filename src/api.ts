@@ -149,7 +149,6 @@ export = {
     getTimeline,
     getMessages,
     getNotes,
-    // getAccountId,
     getCloud,
     getClassId,
     getClassLife,
