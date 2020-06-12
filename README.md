@@ -1,4 +1,4 @@
-# EcoleDirecte-API-France
+# API ÉCOLEDIRECTE FRANCE
 
 Sample code to get access to the API:
 ```js
