@@ -254,7 +254,7 @@ function getDocuments(token) {
     });
 }
 function getClassId(account) {
-    return account.data.accounts[0].profile.classe.id;
+    return account.profile.classe.id;
 }
 module.exports = {
     login: login,

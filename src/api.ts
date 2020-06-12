@@ -2,7 +2,7 @@ import axios from "axios"
 import { Message, MessageResponse } from "../typings/Message"
 import { Timeline, TimelineResponse } from "../typings/Timeline"
 import { Note, NoteResponse } from "../typings/Note"
-import { Account, LoginResponse } from "../typings/Account"
+import { Account } from "../typings/Account"
 import { Cloud, CloudResponse } from "../typings/Cloud"
 import { Sanction, SanctionResponse } from "../typings/Sanctions"
 import { ClassLife, ClassLifeResponse } from "../typings/ClassLife"
@@ -140,8 +140,8 @@ async function getDocuments(token: string): Promise<Document | null> {
     }
 }
 
-function getClassId(account: LoginResponse): number {
-    return account.data.accounts[0].profile.classe.id
+function getClassId(account: Account): number {
+    return account.profile.classe.id
 }
 
 export = {

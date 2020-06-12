@@ -1,7 +1,7 @@
 import { Message } from "../typings/Message";
 import { Timeline } from "../typings/Timeline";
 import { Note } from "../typings/Note";
-import { Account, LoginResponse } from "../typings/Account";
+import { Account } from "../typings/Account";
 import { Cloud } from "../typings/Cloud";
 import { Sanction } from "../typings/Sanctions";
 import { ClassLife } from "../typings/ClassLife";
@@ -17,7 +17,7 @@ declare function getSanctions(token: string, accountID: number): Promise<Sanctio
 declare function getClassLife(token: string, classID: number): Promise<ClassLife | null>;
 declare function getHomeworks(token: string, accountID: number): Promise<Array<HomeworkDescription[]> | null>;
 declare function getDocuments(token: string): Promise<Document | null>;
-declare function getClassId(account: LoginResponse): number;
+declare function getClassId(account: Account): number;
 declare const _default: {
     login: typeof login;
     getTimeline: typeof getTimeline;
