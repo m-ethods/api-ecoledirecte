@@ -6,7 +6,7 @@ const api = require("api-ecoledirecte-france")
 
 api.login("username", "password")
     .then((token) => {
-        console.log(token)
+        console.log(token) // Useful to access to the API...
     })
     .catch((err) => {
         throw err
@@ -14,7 +14,7 @@ api.login("username", "password")
 
 api.accounts("username", "password")
     .then((accounts) => {
-        console.log(account)
+        console.log(accounts)
     })
     .catch((err) => {
         throw err
