@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/obvious-ly-sh/ecoledirecte-api.git"
+        "url": "git+https://github.com/obvious-ly-sh/api-ecoledirecte.git"
     },
     "keywords": [
         "ecole",
@@ -21,9 +21,9 @@
     "author": "Obvious <obvious.ly.dev@gmail.com> (https://obvious-ly-sh.github.io)",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/obvious-ly-sh/ecoledirecte-api/issues"
+        "url": "https://github.com/obvious-ly-sh/api-ecoledirecte/issues"
     },
-    "homepage": "https://github.com/obvious-ly-sh/ecoledirecte-api#readme",
+    "homepage": "https://github.com/obvious-ly-sh/api-ecoledirecte#readme",
     "devDependencies": {
         "nodemon": "^2.0.4",
         "typescript": "^3.9.5"
